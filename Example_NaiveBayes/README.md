@@ -45,10 +45,9 @@ This is a simple implementation of the Naive Bayes classifier using a small data
 Navigate to the directory containing the naivebayes_example.py file. Run the following command in the terminal:
 
 ```
-python naivebayes_example.py
+python3 naivebayes_example.py
 
 ```
-Output:
 
 The program will predict the vehicle class (Car/Bike) based on the number of wheels and height. Example output:
 
@@ -71,7 +70,6 @@ This example extends the basic classifier by adding more data and splitting it i
 | 2       | Low    | Bike        |
 | 4       | Low    | Car         |
 | 2       | High   | Bike        |
-
 | 4       | High   | Car         |
 | 4       | Low    | Car         |
 | 2       | High   | Bike        |
@@ -85,11 +83,9 @@ This example extends the basic classifier by adding more data and splitting it i
 Navigate to the directory containing the naivebayes_example.v2.py file. Run the following command in the terminal:
 
 ```
-python naivebayes_extended.py
+python3 naivebayes_example.v2.py
 
 ```
-Output:
-
 The program will:
 
 * Split the dataset into training and testing sets.
@@ -107,5 +103,5 @@ Example output:
             Bike      1.00      1.00      1.00         3
 
         accuracy                          1.00         6
-        macro avg       1.00      1.00      1.00         6
+        macro avg     1.00      1.00      1.00         6
     weighted avg      1.00      1.00      1.00         6

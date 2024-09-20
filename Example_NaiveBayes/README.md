@@ -28,15 +28,17 @@ This is a simple implementation of the Naive Bayes classifier using a small data
 
 ### Dataset
 
-Wheels	Height	Class Label
-    4	High	Car
-    4	High	Car
-    4	High	Car
-    2	Low	    Bike
-    2	Low	    Bike
-    2	Low	    Bike
-    4	Low	    Car
-    2	High	Bike
+| #Wheels | Height | Class Label |
+|---------|--------|-------------|
+| 4       | High   | Car         |
+| 4       | High   | Car         |
+| 4       | High   | Car         |
+| 2       | Low    | Bike        |
+| 2       | Low    | Bike        |
+| 2       | Low    | Bike        |
+| 4       | Low    | Car         |
+| 2       | High   | Bike        |
+
 
 ### How to Run
 
@@ -59,22 +61,25 @@ This example extends the basic classifier by adding more data and splitting it i
 
 ### Dataset:
 
-Wheels	Height	Class Label
-    4	High	Car
-    4	High	Car
-    4	High	Car
-    2	Low	    Bike
-    2	Low	    Bike
-    2	Low	    Bike
-    4	Low	    Car
-    2	High	Bike
-    4	High	Car
-    4	Low	    Car
-    2	High	Bike
-    2	High	Bike
-    4	High	Car
-    2	Low	    Bike
-    4	Low	    Car
+| #Wheels | Height | Class Label |
+|---------|--------|-------------|
+| 4       | High   | Car         |
+| 4       | High   | Car         |
+| 4       | High   | Car         |
+| 2       | Low    | Bike        |
+| 2       | Low    | Bike        |
+| 2       | Low    | Bike        |
+| 4       | Low    | Car         |
+| 2       | High   | Bike        |
+
+| 4       | High   | Car         |
+| 4       | Low    | Car         |
+| 2       | High   | Bike        |
+| 2       | High   | Bike        |
+| 4       | High   | Car         |
+| 2       | Low    | Bike        |
+| 4       | Low    | Car         |
+
 ### How to Run
 
 Navigate to the directory containing the naivebayes_example.v2.py file. Run the following command in the terminal:
